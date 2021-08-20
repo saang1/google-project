@@ -1,0 +1,74 @@
+body {
+    font-size: 15px;
+    font-family: Roboto,arial,sans-serif;
+    color: #222;
+}
+div {
+    display: block;
+
+}
+ul {
+    text-align:center;
+    list-style-type: none;  
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+    height: 300px;
+}
+
+a { 
+    text-decoration: none; 
+    color: #222;
+}
+a:hover {
+    text-decoration:underline;
+}
+
+
+
+
+.about {
+    position:absolute;
+    top:20px;
+    left:30px;
+}
+
+.store {
+    position:absolute;
+    top:20px;
+    left:100px; 
+}
+
+.gmail {
+    position:absolute;
+    top:20px;
+    right:220px;
+   }
+
+.images {
+    position:absolute;
+    top:20px;
+    right:150px;
+}
+.apps {
+    position:absolute;
+    top:20px;
+    right:80px;
+}
+.account {
+    position:absolute;
+    top:20px;
+    right:10px;
+}
+
+.img {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    max-height: 290px;
+    height: 100px;
+}
+#buttons {
+    text-align: center;
+    padding-top: 40px;
+}
