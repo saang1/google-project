@@ -115,10 +115,12 @@ a:hover {
 }
 .searchbar {
     position:absolute;
-    left: 25%;
+    left: 34%;
     background-color:transparent;
     box-sizing: border-box;
-    width: 50vw;
+    width: 32vw;
+    min-width: 32vw;
+    max-width: 32vw;
     padding: 5px 16px;
     text-decoration: none;
     outline: none;
