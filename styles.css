@@ -32,10 +32,6 @@ a {
 a:hover {
     text-decoration:underline;
 }
-
-
-
-
 .about {
     position:absolute;
     top:20px;
@@ -60,16 +56,50 @@ a:hover {
     right:150px;
 }
 .apps {
+    display: inline-flex;
+    height: auto;
+    width: auto;
+    font-size: 18px;
+    background:white;
+    border: none;
+    outline: none;
+    border-radius: 80%;
+    overflow: hidden;
     position:absolute;
-    top:20px;
-    right:80px;
+    top: 10px;
+    right: 80px;
+}
+.apps:hover {
+    background: #e5e5e5;
+}
+.apps__icon {
+    display: inline-flex;
+    align-items: center;
+    padding: 10px;
 }
 .account {
+    display: inline-flex;
+    height: auto;
+    width: auto;
+    padding: 0;
+    font-size: 25px;
+    background:white;
+    border: none;
+    outline: none;
+    border-radius: 80%;
+    overflow: hidden;
     position:absolute;
-    top:20px;
-    right:10px;
+    top: 7px;
+    right: 19px;
 }
-
+.account:hover {
+    background: #e5e5e5;
+}
+.account__icon {
+    display: inline-flex;
+    align-items: center;
+    padding: 10px;
+}
 .img {
     display:flex;
     flex-direction: column;
@@ -79,8 +109,11 @@ a:hover {
     padding-top: 20px;
 }
 .searchbar {
-    padding-left: 130px;
-    padding-right: 130px;
+    position:absolute;
+    left: 25%;
+    background-color:transparent;
+    box-sizing: border-box;
+    width: 50vw;
 }
 #buttons {
     text-align: center;
